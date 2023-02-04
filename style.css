@@ -5,14 +5,15 @@ body{
 
 #main{
     margin-top: 100px;
+    background-color: rgb(203, 203, 203);
     display: grid;
     grid-template-rows: 150px auto;
     width: 550px;
     height: 700px;
-    border: 20px black solid;
+    border: 20px rgb(74, 65, 65) solid;
+    border-radius: 20px;
     gap: 30px;
     padding: 20px;
-    
     
 }
 #top{
@@ -29,7 +30,18 @@ body{
 }
 
 .item{
-    background-color: rgb(162, 162, 240);
+    background-color: rgb(249, 255, 193);
+    border-radius: 10px;
+    font-size: 30px;
+}
+.item-clear{
+    background-color: rgb(212, 111, 111);
+}
+.item-display{
+    background-color: rgb(236, 232, 232);
+    font-size: 20px;
+    font-family: 'Digital Numbers', sans-serif;
+    margin:0;                                        
 }
 #bottom.item{
 }
